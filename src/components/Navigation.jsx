@@ -12,6 +12,9 @@ const Navigation = () => {
         <Link as={RouterLink} to="/examples">
           Examples
         </Link>
+        <Link as={RouterLink} to="/build-app">
+          Build App
+        </Link>
       </HStack>
     </Box>
   );
