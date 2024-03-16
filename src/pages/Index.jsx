@@ -53,7 +53,13 @@ const Index = () => {
           {colorMode === "light" ? "Switch to Dark Mode" : "Switch to Light Mode"}
         </Button>
         <Divider />
-        <Heading as="h2" size="xl">
+        <Heading as="h2" size="xl" mt={8}>
+          🎨 Example Apps
+        </Heading>
+        <Text fontSize="lg">Check out some amazing apps built with GPT Pilot:</Text>
+        {}
+
+        <Heading as="h2" size="xl" mt={8}>
           🔗 Connect with us
         </Heading>
         {/* Social media and contact links */}
