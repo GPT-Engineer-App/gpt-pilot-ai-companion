@@ -1,4 +1,5 @@
 import { Box, Container, Heading, Text, Link, Image, VStack, Code, Divider, Button, List, ListItem, ListIcon, useColorMode } from "@chakra-ui/react";
+import { Link as RouterLink } from "react-router-dom";
 import { FaDiscord, FaDocker, FaPython, FaGithub, FaStar, FaEnvelope, FaPlay, FaPlug } from "react-icons/fa";
 import { BsTerminalFill } from "react-icons/bs";
 
